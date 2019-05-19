@@ -1,0 +1,59 @@
+.container{
+  margin-top: 3%;
+}
+
+a:visited, a:link{
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.fab, .fas{
+  border: none;
+	color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 100%;
+  background-color: #dddddd;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+.fab:hover, fas:hover{
+
+}
+
+.btn-whatsapp:hover{
+background-color: #4FCE5D;
+}
+
+.btn-telegram:hover{
+background-color: #0088CC;
+}
+
+.btn-envelope:hover{
+background-color: #D44638;
+}
+
+.btn-linkedin:hover{
+background-color: #0077b5;
+}
+
+.btn-github:hover{
+background-color: #333333;
+}
+
+.btn-facebook:hover{
+background-color: #4267B3;
+}
+
+.btn-twitter:hover{
+background-color: #55ACEE;
+}
+
+.btn-instagram:hover{
+background-color: #f44747;
+}
