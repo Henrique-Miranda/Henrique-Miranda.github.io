@@ -72,6 +72,10 @@ background-color: #55ACEE;
 background-color: #f44747;
 }
 
+.btn-youtube:hover{
+background-color: #c4302b;
+}
+
 .fullscreen-bg {
   position: fixed;
   top: 0;
