@@ -1,8 +1,7 @@
 .container{
-  position: relative;
   margin-top: 5%;
   z-index: 2;
-  align-content: center;
+  font-weight: bold;
 }
 .card{
   padding-top: 5px;
@@ -76,44 +75,28 @@ background-color: #f44747;
 background-color: #c4302b;
 }
 
+html, body {
+  margin: 0;
+}
+
 .fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
   overflow: hidden;
-  z-index: -100;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #myVideo {
+  z-index: -1;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-@media (min-aspect-ratio: 16/9) {
-  #myVideo {
-    height: 300%;
-    top: -100%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  #myVideo {
-    width: 300%;
-    left: -100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .fullscreen-bg {
-    background: url('media/raincode.jpg') center center / cover no-repeat;
-  }
-
-  #myVideo {
-    display: none;
-  }
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
