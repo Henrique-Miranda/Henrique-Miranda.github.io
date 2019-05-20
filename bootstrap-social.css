@@ -1,7 +1,6 @@
 .container{
   margin-top: 5%;
   z-index: 2;
-  font-weight: bold;
 }
 .card{
   padding-top: 5px;
@@ -10,6 +9,11 @@
   align-items: center;
 
 }
+
+h5{
+  font-weight: bold;
+}
+
 .card-img-top{
   box-shadow: 5px 5px 5px rgba(200,200,200,0.2);
 
