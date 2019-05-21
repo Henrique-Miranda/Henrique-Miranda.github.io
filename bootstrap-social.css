@@ -19,18 +19,18 @@ h5{
 
 }
 
-a:visited, a:link{
-  color: white;
-  font-style: normal;
+a.hl, a.hl:visited{
   text-decoration: none;
+  color: green;
 }
 
 .fab, .fas{
+  color: white;
+  font-style: normal;
+  text-decoration: none;
   border: none;
-	color: white;
   padding: 8px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 20px;
   margin: 4px 2px;
