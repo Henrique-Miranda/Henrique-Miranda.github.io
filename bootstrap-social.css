@@ -24,7 +24,11 @@ a.hl, a.hl:visited{
   color: green;
 }
 
-.fab, .fas{
+a.hl:hover{
+  font-weight: bold;
+}
+
+.fab, .fab:hover, .fas, .fas:hover{
   color: white;
   font-style: normal;
   text-decoration: none;
