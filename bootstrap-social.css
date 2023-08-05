@@ -100,6 +100,8 @@ html, body {
 #myVideo {
   z-index: -1;
   position: absolute;
+  height: 100%;
+  width: 100%;
   object-fit: fill;
   transform: translate(-50%, -50%);
 }
