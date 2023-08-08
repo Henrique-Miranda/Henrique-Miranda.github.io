@@ -1,0 +1,115 @@
+.container{
+  margin-top: 5%;
+  z-index: 2;
+}
+.card{
+  padding-top: 5px;
+  background-color:rgba(8, 8, 8, 0.747);
+  align-content: center;
+  align-items: center;
+  border-color: white;
+  border-style: solid;
+  border-width: .25rem;
+  border-radius: 6px;
+}
+
+h5{
+  font-weight: bold;
+}
+
+.card-img-top{
+  box-shadow: 5px 5px 5px rgba(200,200,200,0.2);
+
+}
+
+a.hl, a.hl:visited{
+  text-decoration: none;
+  color: #58A8D8;
+}
+
+a.hl:hover{
+  font-weight: bold;
+}
+
+.fab, .fab:hover, .fas, .fas:hover{
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 100%;
+  background-color: #918d8d;
+  box-shadow: 5px 5px 5px rgba(255,255,255,0.1);
+  width: 38px;
+  height: 38px;
+
+}
+.fab:hover, .fas:hover{
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.404);
+}
+
+.btn-whatsapp:hover{
+background-color: #4FCE5D;
+}
+
+.btn-telegram:hover{
+background-color: #0088CC;
+}
+
+.btn-envelope:hover{
+background-color: #D44638;
+}
+
+.btn-linkedin:hover{
+background-color: #0077b5;
+}
+
+.btn-github:hover{
+background-color: #333333;
+}
+
+.btn-facebook:hover{
+background-color: #4267B3;
+}
+
+.btn-twitter:hover{
+background-color: #55ACEE;
+}
+
+.btn-instagram:hover{
+background-color: #f44747;
+}
+
+.btn-youtube:hover{
+background-color: #c4302b;
+}
+
+html, body {
+  margin: 0;
+}
+
+.fullscreen-bg {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#myVideo {
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
